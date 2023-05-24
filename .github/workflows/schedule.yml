@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update gist
-        uses: maxam2017/productive-box@master
+        uses: CircleYoo/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: c2cea3922e977efa42a53428a52739c6
+          GIST_ID: ${{ secrets.GH_ID }}
           TIMEZONE: Asia/Seoul
